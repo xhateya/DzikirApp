@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xhateya.idn.dzikirapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DzikirApp">
+        <activity android:name=".helper.OnItemClickCallback"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".OnItemClickCallback"
+            tools:ignore="Instantiatable"></activity>
+        <activity android:name=".DzikirSetiapSaatActivity"></activity>
+        <activity android:name=".ui.detail.DzikirPetangActivity" />
+        <activity android:name=".ui.detail.DzikirPagiActivity" />
+        <activity android:name=".ui.detail.DetailArtikelActivity" />
+        <activity android:name=".ui.detail.DzikirSetiapSaatMainActivity" />
+        <activity android:name=".ui.detail.QauliyahShalatActivity" />
+        <activity android:name=".ui.detail.DzikirPagiPetangActivity" />
+        <activity android:name=".ui.detail.DoaDzikirHarianActivity" />
+        <activity android:name=".ui.detail.DzikirPagiPetang" />
+        <activity android:name=".ui.detail.DoaDzikirHarian" />
+        <activity android:name=".DzikirPagiPetangActivity" />
+        <activity android:name=".ui.DzikirSetiapSaatActivity" />
+        <activity android:name=".ui.DoaHarianActivity" />
+        <activity android:name=".ui.QauliyahActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

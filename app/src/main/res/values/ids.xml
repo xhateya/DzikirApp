@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rvQauliyah" type="id" />
+    <item name="rv_dzikir_setiap_saat" type="id" />
+    <item name="rv_dzikir_petang" type="id" />
+    <item name="rv_dzikir_pagi" type="id" />
+    <item name="img_detail" type="id" />
+    <item name="tv_detail_title" type="id" />
+    <item name="tv_detail_desc" type="id" />
+    <item name="cv_dzikir_pagi" type="id" />
+    <item name="cv_dzikir_petang" type="id" />
+    <item name="btn_dzikir_pagi" type="id" />
+    <item name="btn_dzikir_petang" type="id" />
+</resources>
